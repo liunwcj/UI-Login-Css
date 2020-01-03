@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style type="text/css">
+	body{
+		margin:0;
+		padding: 0;
+		background-color: black;
+	}
+	#login h2{
+		color:#15EF90;
+		line-height: 50px;
+		border-bottom: 2px solid #15EF90;
+		border-radius: 10px;
+		margin-bottom: 30px;
+	}
+	#login{
+		left: 50%;
+		top :50%;
+		position: absolute;
+		width: 240px;
+		color: black;
+		transform: translate(-50%,-50%);
+		padding: 30px;
+		background-color:black;
+		border-radius: 8px;
+	}
+	.input{
+		font-size: 20px;
+		padding: 15px 0px;
+		border-radius: 5px; 
+		margin-top: 8px;
+		border-bottom: 1px solid #15EF90;
+	}
+	#log{	
+		font-size: 18px;
+	}
+	#pass{
+		font-size: 18px;
+	}
+	.input input{
+		border:none;
+		outline: none;
+		background:none;
+		color:#29FC82;
+		margin:0 10px; 
+	}
+	.btn{
+		width: 100%;
+		background: none;
+		margin: 18px 0px;
+		padding :5px;
+		cursor: pointer;
+		text-align: center;
+		color: #15EF90;
+		font-size: 18px;
+		border-radius: 5px;
+		border:1px solid #29FC82;
+	}
+/*	.btn:hover{
+		background-color: #37CA72;
+	}
+*/
+
+	</style>
+</head>	
+<body>
+		<div id="login">
+			<h2> LOGIN </h2>
+			<div class="input">	
+				<input type="text" id="log" placeholder="Username">	
+			</div>
+			<div class="input">		
+				<input type="password" id="pass" placeholder="Password">
+			</div>
+			<input type="button" class="btn" value="Login">
+		</div>
+
+</body>
+</html>
